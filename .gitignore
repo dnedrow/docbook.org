@@ -237,8 +237,6 @@ gradle-app.setting
 # docbook.org exclusions
 docbook-ng/**/index.html
 docs/**/index.html
-docs/**/index.html
-minutes/**/index.html
 etc/dirlistings.xml
 etc/git-log-summary.xml
 guidelines.html
@@ -246,11 +244,13 @@ help.html
 index.html
 meetups.html
 menus/
-ns/**/*.html
+minutes/**/index.html
+ns/*.html
 release/
 rfe/index.html
 rng/**/index.html
-schemas/**/*.html
+schemas/*.html
+search/index.html
 sgml/**/index.html
 sitemap.html
 specs/index.html
@@ -258,7 +258,6 @@ tc.html
 tdg/*.html
 tdg5/index.html
 tdg5/publishers/index.html
-search/index.html
 tdg51/index.html
 tools/index.html
 whatis.html
