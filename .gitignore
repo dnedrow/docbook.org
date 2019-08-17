@@ -261,7 +261,9 @@ sgml/**/index.html
 sitemap.html
 specs/index.html
 tc.html
-tdg/*.html
+tdg/errata.html
+tdg/index.html
+# tdg/*.html
 tdg5/index.html
 tdg5/publishers/index.html
 tdg51/index.html
