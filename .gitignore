@@ -249,7 +249,13 @@ ns/*.html
 release/
 rfe/index.html
 rng/**/index.html
-schemas/*.html
+schemas/4x-custom.html
+schemas/4x.html
+schemas/5x-custom.html
+schemas/5x.html
+schemas/archives.html
+schemas/index.html
+# schemas/./*.html
 search/index.html
 sgml/**/index.html
 sitemap.html
