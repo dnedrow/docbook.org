@@ -51,6 +51,9 @@ handAuthoredPages.forEach {
     var taskName: String = "page_".plus(it.replace("/", "_"))
 }
 
+/**
+ * This task generates an XML version of the docbook.org git log.
+ */
 tasks.register("gitlog") {
     group = "DocBook"
     description = "Get the current git log in XML."

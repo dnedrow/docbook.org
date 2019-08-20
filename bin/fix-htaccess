@@ -1,5 +1,8 @@
 #!/usr/bin/perl -- # -*- Perl -*-
 
+use strict;
+use warnings FATAL => 'all';
+
 my $root = "/home/ndw/docbook.org/htdocs";
 
 htaccessUpdate(".");
