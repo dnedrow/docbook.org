@@ -1,4 +1,4 @@
-
+!/.idea/
 # Created by https://www.gitignore.io/api/vim,macos,emacs,gradle,intellij,sublimetext
 # Edit at https://www.gitignore.io/?templates=vim,macos,emacs,gradle,intellij,sublimetext
 
@@ -234,40 +234,47 @@ gradle-app.setting
 
 # End of https://www.gitignore.io/api/vim,macos,emacs,gradle,intellij,sublimetext
 
+# Additional JetBrains exclusions
+/.idea/aws.xml
+/.idea/checkstyle-idea.xml
+/.idea/perl5local.xml
+/.idea/codeStyles/Project.xml
+/.idea/vcs.xml
+
 # docbook.org exclusions
-docbook-ng/**/index.html
-docs/**/index.html
-etc/dirlistings.xml
-etc/git-log-summary.xml
-guidelines.html
-help.html
-index.html
-meetups.html
-menus/
-minutes/**/index.html
-ns/*.html
-release/
-rfe/index.html
-rng/**/index.html
-schemas/4x-custom.html
-schemas/4x.html
-schemas/5x-custom.html
-schemas/5x.html
-schemas/archives.html
-schemas/index.html
-# schemas/./*.html
-search/index.html
-sgml/**/index.html
-sitemap.html
-specs/index.html
-tc.html
-tdg/errata.html
-tdg/index.html
-# tdg/*.html
-tdg5/index.html
-tdg5/publishers/index.html
-tdg51/index.html
-tools/index.html
-whatis.html
-xml/**/index.html
-xsd/**/index.html
+/docbook-ng/**/index.html
+/docs/**/index.html
+/etc/dirlistings.xml
+/etc/git-log-summary.xml
+/guidelines.html
+/help.html
+/index.html
+/meetups.html
+/menus/
+/minutes/**/index.html
+/ns/*.html
+/release/
+/rfe/index.html
+/rng/**/index.html
+/schemas/4x-custom.html
+/schemas/4x.html
+/schemas/5x-custom.html
+/schemas/5x.html
+/schemas/archives.html
+/schemas/index.html
+# /schemas/./*.html
+/search/index.html
+/sgml/**/index.html
+/sitemap.html
+/specs/index.html
+/tc.html
+/tdg/errata.html
+/tdg/index.html
+/# tdg/*.html
+/tdg5/index.html
+/tdg5/publishers/index.html
+/tdg51/index.html
+/tools/index.html
+/whatis.html
+/xml/**/index.html
+/xsd/**/index.html
